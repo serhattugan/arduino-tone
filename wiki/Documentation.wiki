@@ -1,0 +1,28 @@
+#summary Arduino Tone Generator Library.
+
+= Arduino Tone Library Usage =
+
+
+
+== Instantiation ==
+
+{{{
+
+Tone notePlayer;
+
+void setup(void)
+{
+  notePlayer.begin(13);
+}
+
+}}}
+
+
+== Properties ==
+ * No properties.
+
+== Methods ==
+ * <tt>[begin()]</tt> - prepares a pin for playing a tone.
+ * <tt>[isPlaying()]</tt> - returns <tt>true</tt> if tone is playing, <tt>false</tt> if not.
+ * <tt>[play()]</tt> - play a tone.
+ * <tt>[stop()]</tt> - stop playing a tone.
