@@ -25,7 +25,7 @@ void setup(void)
  * <tt>[CommandBegin begin]()</tt> - prepares a pin for playing a tone.
  * <tt>[CommandIsPlaying isPlaying]()</tt> - returns <tt>true</tt> if tone is playing, <tt>false</tt> if not.
  * <tt>[CommandPlay play]()</tt> - play a tone.
- * <tt>[CommandStop]()</tt> - stop playing a tone.
+ * <tt>[CommandStop stop]()</tt> - stop playing a tone.
 
 == Constants ==
 
